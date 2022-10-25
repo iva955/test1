@@ -1,3 +1,3 @@
 # test1
 My first coding project 
-https://github.com/iva955/test1
+file:///Users/iva/Documents/GitHub/test1/index.html
