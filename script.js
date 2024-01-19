@@ -1,13 +1,13 @@
 function onButtonClick () {
-  alert ('Button Clicked'); }
+  alert ('You are getting OLD'); }
 
 const button = document.querySelector('button');
 button.addEventListener('click', onButtonClick);
 
 const newButton = document.createElement('button');
-newButton.textContent = 'Click me!';
+newButton.textContent = 'Another SURPRISEEEE!';
 document.body.appendChild(newButton);
 
 newButton.addEventListener('click', () => {
-  alert('New button clicked!');
+  alert('At least you are still alive!');
 });
