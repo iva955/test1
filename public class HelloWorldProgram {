@@ -1,0 +1,45 @@
+public class HelloWorldProgram {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+
+        Car redCar = new Car("red",4); // 4 doors
+        Car blueCar = new Car("blue",2); // 2 doors
+        Car anotherRedCar = new Car("red",2);   // 2 doors
+
+        redCar.printColor();
+        blueCar.printColor();
+
+        int redDoors = redCar.getNumberOfDoors();
+        System.out.println("Red car has " + redDoors + " doors");
+
+    }
+}
+
+
+private class Car {
+    private String color;
+    private int doors;
+
+    public Car(String color, int doors) {
+        this.color = color;
+        this.doors = doors;
+    }
+
+
+    public void printColor() {
+        System.out.println("I am " + this.color);
+    }
+
+    public int getNumberOfDoors() {
+        return this.doors;
+    }
+
+    private int Sum(int input1, int input2) {
+        return input1 + input2;
+    }
+
+
+    private void takeFuel() {
+        System.out.println("I am taking fuel!");
+    }
+}
